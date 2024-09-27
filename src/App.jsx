@@ -1,14 +1,10 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
 
-function App() {
-  const [count, setCount] = useState(0)
 
+function App() {
   return (
     <>
-      <h2>Ideax By MBMC</h2>
+      <h2 className='text-center h-2 font-boldx'>Ideax By MBMC</h2>
     </>
   )
 }
